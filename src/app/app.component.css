@@ -1,0 +1,53 @@
+/* .container {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+}
+.block {
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    width: 100%;
+}
+.row {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.row1 {
+    width: 50%;
+    margin-top: 20px;
+}
+.row2 {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.but {
+    margin: 25px;
+}
+
+table, th, tr {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    float: center;
+} */
+
+.second {
+    margin-top: 50px;
+}
+.first {
+    margin-top: 10px;
+}
+table {
+    margin: 50px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+table, tr, td {
+    padding: 5px;
+    text-align: center;
+}

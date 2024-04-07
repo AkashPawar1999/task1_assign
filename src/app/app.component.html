@@ -1,0 +1,24 @@
+<div class="first">
+  <input [(ngModel)]="newKey" placeholder="Key" />
+  <input [(ngModel)]="newValue" placeholder="Value" />
+  <button (click)="addKeyValuePair()">Add</button>
+</div>
+
+<div class="second" >
+  <input [(ngModel)]="key1" placeholder="Key1" />
+  <input [(ngModel)]="key2" placeholder="Key2" />
+  <button (click)="concatValues()">Concat</button>
+</div>
+
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Value</th>
+    <th></th>
+  </tr>
+  <tr *ngFor="let item of keyValuePairs">
+    <td>{{item.key}}</td>
+    <td>{{item.value}}</td>
+    <td><button>edit</button></td>
+  </tr>
+</table>
